@@ -1,7 +1,7 @@
 import pytest
 from cosmic_ray_spor_filter.filter import (_item_in_context,
                                            _line_and_col_to_offset)
-from spor.anchor import Context
+from spor import Context
 
 from cosmic_ray.work_item import WorkItem
 

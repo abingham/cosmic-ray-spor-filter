@@ -8,7 +8,7 @@ from functools import lru_cache
 
 from cosmic_ray.tools.filters.filter_app import FilterApp
 from cosmic_ray.work_item import WorkerOutcome, WorkResult
-from spor.repository import open_repository
+from spor import open_repository
 
 log = logging.getLogger()
 
